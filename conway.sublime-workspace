@@ -1,0 +1,1019 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"step",
+				"step_speed"
+			],
+			[
+				"c",
+				"cell_height  (variable)"
+			],
+			[
+				"init",
+				"initAsBackground"
+			],
+			[
+				"nu",
+				"num_cells_y  (variable)"
+			],
+			[
+				"cel",
+				"cell_height  (variable)"
+			],
+			[
+				"ce",
+				"cell_width  (variable)"
+			],
+			[
+				"clie",
+				"client_height"
+			],
+			[
+				"ca",
+				"canvas"
+			],
+			[
+				"pro",
+				"proto	Prototype"
+			],
+			[
+				"ad",
+				"addEventListener  (function)"
+			],
+			[
+				"cell",
+				"cell_alive"
+			],
+			[
+				"cells_",
+				"cells_changed"
+			],
+			[
+				"num",
+				"num_neighbours_alive"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"new",
+				"new_cells_alive"
+			],
+			[
+				"up",
+				"updateDisplay"
+			],
+			[
+				"ini",
+				"init"
+			],
+			[
+				"dr",
+				"drawGrid  (function)"
+			],
+			[
+				"draw",
+				"drawCell"
+			],
+			[
+				"Gam",
+				"GameDisplay"
+			],
+			[
+				"Ga",
+				"GameDisplay"
+			],
+			[
+				"_cel",
+				"_cell_height"
+			],
+			[
+				"gam",
+				"GameDisplay"
+			],
+			[
+				"run",
+				"run_number"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"evl",
+				"evalGen"
+			],
+			[
+				"ali",
+				"num_neighbours_alive"
+			],
+			[
+				"cell_alive",
+				"cell_alive_neighbours"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"Game",
+				"GameOfLife"
+			],
+			[
+				"cells",
+				"cells_alive"
+			],
+			[
+				"col",
+				"column_right"
+			],
+			[
+				"row",
+				"row_below"
+			],
+			[
+				"co",
+				"column_left"
+			],
+			[
+				"column",
+				"column_right"
+			],
+			[
+				"num_c",
+				"num_cells_y  (argument)"
+			],
+			[
+				"upda",
+				"updateDisplay"
+			],
+			[
+				"is",
+				"is_alive"
+			],
+			[
+				"master",
+				"master_cell"
+			],
+			[
+				"p",
+				"p_x"
+			],
+			[
+				"mast",
+				"master_cell"
+			],
+			[
+				"ne",
+				"neighbours"
+			],
+			[
+				"num_cel",
+				"num_cells_x"
+			],
+			[
+				"y",
+				"y_pos"
+			],
+			[
+				"st",
+				"start_y"
+			],
+			[
+				"fill",
+				"fillRect"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"hei",
+				"height_pixels"
+			],
+			[
+				"wi",
+				"width_pixels"
+			],
+			[
+				"can",
+				"canvas_id"
+			],
+			[
+				"ac",
+				"activateCells"
+			],
+			[
+				"activ",
+				"activeCells"
+			],
+			[
+				"e",
+				"evalLengthX"
+			],
+			[
+				"ev",
+				"evalLenghtY"
+			],
+			[
+				"eval",
+				"evalLengthX"
+			],
+			[
+				"pr",
+				"proto	Prototype"
+			],
+			[
+				"fi",
+				"fillStyle  (variable)"
+			],
+			[
+				"x",
+				"xMax"
+			],
+			[
+				"stro",
+				"strokeRect  (function)"
+			],
+			[
+				"bor",
+				"borderWidth"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"id",
+				"idSmallImg"
+			],
+			[
+				"Au",
+				"author  (variable)"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"smallIm",
+				"smallImageList"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"Model",
+				"Model_Projectsimage"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"pa",
+				"pathBig  (variable)"
+			],
+			[
+				"key",
+				"key_to"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"find",
+				"find_by_title"
+			],
+			[
+				"Mode",
+				"Model_Site"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ord",
+				"ordered"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"crea",
+				"created_at"
+			],
+			[
+				"M",
+				"Model_Site"
+			],
+			[
+				"vali",
+				"validate  (function)"
+			],
+			[
+				"to",
+				"toSave"
+			],
+			[
+				"preg_",
+				"preg_match"
+			],
+			[
+				"pat",
+				"pathSmall"
+			],
+			[
+				"path",
+				"pathBig"
+			],
+			[
+				"saved_",
+				"saved_as"
+			],
+			[
+				"u",
+				"uploadedImages"
+			],
+			[
+				"big",
+				"pathBig"
+			],
+			[
+				"project",
+				"projectsId"
+			],
+			[
+				"mt",
+				"mt_rand"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"Contr",
+				"Controller_Admin"
+			],
+			[
+				"fcontroller",
+				"fcontroller	Controller_template"
+			],
+			[
+				"actio",
+				"action_view"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"fora",
+				"foreach	foreach …"
+			],
+			[
+				"end",
+				"endforeach  (keyword)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gameoflife.js",
+			"settings":
+			{
+				"buffer_size": 7363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "seeds.js",
+			"settings":
+			{
+				"buffer_size": 33855,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSHint/JSHint.sublime-build",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/muma/Developer/Web/Projects/Conway/style.css",
+		"/Users/muma/Developer/Web/Projects/Conway/gameoflifev2.js",
+		"/Users/muma/Developer/Web/Projects/Conway/script.js",
+		"/Users/muma/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/muma/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/muma/Developer/Web/Projects/TryOuts/Canvas/canvasPlayground.js",
+		"/Users/muma/Library/Application Support/Sublime Text 2/Packages/User/JSLint.sublime-settings",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/startertemplate.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/blog/template.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/blog/info.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/blog/kontakt.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/public/index.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/config/config.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/config.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/model/sinfo",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/admin/kontakt.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/projects/_form.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/admin/projects.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/projects/index.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/model/project.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/config/routes.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/starter.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/kontakt.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/blog.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/blog/index.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/public/assets/css/style.css",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/blog/projekte.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/neu.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/starter-template.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/info.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/projekte.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/model/projectsimage.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/template.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/dashboard.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/projects/view.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/model/projectnewsimage.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/migrations/006_create_projectnewsimages.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/public/assets/css/index.html",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/admin/news.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/news/_form.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/news/index.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/migrations/005_create_news.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/model/news.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/migrations/002_create_projects.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/admin/sites.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/news/view.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/news/edit.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/projects/edit.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/news/create.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/sites/index.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/sites/create.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/sites/edit.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/sites/view.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/public/assets/js/script.js",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/core/classes/upload.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/deleteprojectsimage.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/DeleteProjectsImage.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/projectsimage.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/blog/viewBlogProject.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/admin.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/foo.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/packages/orm/classes/observer/createdat.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/model/deleteFile.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/admin/login.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/classes/controller/welcome.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/welcome/hello.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/views/welcome/index.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/config/development/db.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/config/simpleauth.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/packages/auth/config/auth.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/app/config/auth.php",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/TESTING.md",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/README.md",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/oil",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/CONTRIBUTING.md",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/CHANGELOG.md",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/build.xml",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/fuel/core/classes/profiler.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/.htaccess",
+		"/Applications/MAMP/htdocs/lukasBaumgartner/.htaccess",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/template.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/model/image.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/controller/admin/posts.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/model/riddle.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/posts/view.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/blog/index.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/images/view.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/images/_form.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/posts/index.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/images/index.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/controller/admin/images.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/model/page.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/images/create.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/posts/create.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/posts/_form.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/controller/blog.php",
+		"/Users/muma/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/muma/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/blog/view.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/blog/view_page.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/template.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/controller/admin/pages.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/public/.htaccess",
+		"/Applications/MAMP/htdocs/FuelPlayground/public/index.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/pages/view.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/pages/index.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/pages/edit.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/posts/edit.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/pages/create.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/pages/_form.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/controller/admin/riddles.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/controller/admin/page.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/core/classes/db.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/tasks/robots.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/dashboard.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/controller/admin.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/migrations/003_create_riddles.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/public/assets/css/bootstrap-responsive.css",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/config/routes.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/public/assets/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/FuelPlayground/public/assets/css/schok-responsive.css",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/model/post.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/riddles/view.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/riddles/edit.php",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/views/admin/riddles/create.php",
+		"/Users/muma/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Applications/MAMP/htdocs/FuelPlayground/fuel/app/classes/controller/base.php",
+		"/Users/muma/Library/Application Support/Sublime Text 2/Packages/User/PHP.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nav",
+			"pro",
+			"content",
+			"projects",
+			"site",
+			"sites",
+			"Site",
+			"border",
+			"project",
+			"$project",
+			"$uploadedImages[$i]",
+			"delete",
+			"nav-",
+			"tren",
+			"groups",
+			"$post",
+			"admin/posts",
+			"super+b",
+			"$post",
+			"post",
+			"$post",
+			"post",
+			"Model_Post",
+			"post",
+			"riddle/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"news",
+			"News",
+			"site",
+			"$site",
+			"$img",
+			"nav-a-",
+			"$image",
+			"admin/images",
+			"$page",
+			"page",
+			"$page",
+			"page",
+			"Model_Page",
+			"page",
+			"admin/riddles/",
+			"admin/riddles"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gameoflife.js",
+					"settings":
+					{
+						"buffer_size": 7363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7137,
+								7137
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1355.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "seeds.js",
+					"settings":
+					{
+						"buffer_size": 33855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33673,
+								33673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1685.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true
+}
