@@ -86,18 +86,22 @@ var seed_2 = [
  *
  * Conway's game of life. With help from https://github.com/nomatteus/conway-game-of-life-js/blob/master/gameoflife.js.
  *
- * @version V1
+ * @version V2.2
  */
 function GameOfLife(params) {
-	var num_cells_y = params["init_cells"].length,
-		num_cells_x = params["init_cells"][0].length,
-		cell_width  = params["cell_width"]  || 10,
-		cell_height = params["cell_height"] || 10,
-		init_cells  = params["init_cells"]  || [],
-		canvas_id   = params["canvas_id"]   || "game",
-		step_speed  = params["step_speed"]  || 500;
+    this.num_cells_y = params.init_cells ? params.init_cells.length : 0;
+    this.num_cells_x = params.init_cells ? params.init_cells[0].length : 0;
+    this.cell_width  = params.cell_width  || 10;
+    this.cell_height = params.cell_height || 10;
+    this.init_cells  = params.init_cells || [];
+    this.canvas_id   = params.canvas_id  || "game";
+    this.step_speed  = params.step_speed  || 500;
+    this.probability = params.probability || 0.5,
 
-	this.interval = null;
+    this.is_running = false;
+
+    this.canvas = document.getElementById(this.canvas_id);
+    this.display = new GameDisplay(this.num_cells_x, this.num_cells_y, this.cell_width, this.cell_height, this.canvas_id);
 
     this.cells = [];
     this.cells_alive = [];
@@ -105,10 +109,22 @@ function GameOfLife(params) {
     this.num_cells_alive = 0;
     this.run_number = 0;
 
-    this.initCells(num_cells_x, num_cells_y, init_cells);
-    this.display = new GameDisplay(num_cells_x, num_cells_y, cell_width, cell_height, canvas_id);
-    this.display.initAsBackground();
+    if (this.init_cells.length) {
+        this.readCells(this.init_cells);
+        this.display.initAsBackground();
+    } else {
+        this.canvas.style.width = '100%';
+        this.canvas.style.height = '20%';
+        this.display.fillCanvas();
+        this.randomizeCells(this.probability);
+        this.readCells();
+    }
+
     this.updateDisplay();
+
+    // _this is necessary. Otherwise 'this === window'.
+    var _this = this;
+    this.canvas.addEventListener('click', function(){_this.toggle();}, false);
 }
 
 GameOfLife.prototype.updateDisplay = function() {
@@ -116,10 +132,12 @@ GameOfLife.prototype.updateDisplay = function() {
 	this.display.update(this.cells_alive);
 };
 
-GameOfLife.prototype.initCells = function(num_cells_x, num_cells_y, init_cells) {
+GameOfLife.prototype.readCells = function() {
 	var	cell_neighbours = [],
 		cell,
-		row_above, row_below, column_left, column_right;
+		row_above, row_below, column_left, column_right,
+        num_cells_y = this.init_cells.length,
+        num_cells_x = this.init_cells[0].length;
 
 	this.cells = new Array(num_cells_y);
 
@@ -138,14 +156,16 @@ GameOfLife.prototype.initCells = function(num_cells_x, num_cells_y, init_cells) 
                                [y, column_left], [y, column_right],
                                [row_below, column_left], [row_below, x], [row_below, column_right]];
 
-            if (init_cells[y][x] === 1) {
-				// it's alive!
-				cell = new Cell(x, y, true, cell_neighbours);
-				this.cells[y][x] = cell;
-				this.cells_alive.push(cell);
-				this.num_cells_alive++;
+            if (this.init_cells[y][x] === 1) {
+                // it's alive!
+                cell = new Cell(x, y, true, cell_neighbours);
+                this.cells[y][x] = cell;
+                this.cells_alive.push(cell);
+                this.num_cells_alive++;
+            } else {
+                this.cells[y][x] = new Cell(x, y, false, cell_neighbours);
             }
-            else this.cells[y][x] = new Cell(x, y, false, cell_neighbours);
+
 		}
 	}
 };
@@ -205,32 +225,56 @@ GameOfLife.prototype.step = function () {
 	this.evalGen();
 	this.updateDisplay();
 
-	console.log("run number: " + this.run_number);
-	console.log("number of cells alive: " + this.cells_alive.length);
+	//console.log("run number: " + this.run_number);
+	//console.log("number of cells alive: " + this.cells_alive.length);
 
 	this.run_number++;
 };
 
+GameOfLife.prototype.run = function() {
+  if (this.is_running) {
+    var _this = this;
+    this.step();
+    setTimeout(function() { _this.run(); }, _this.step_speed);
+  }
+};
+
 GameOfLife.prototype.toggle = function() {
-	var t = this;															// since setInterval uses 'window' as 'this'.
-	if (this.interval !== null) {
-		clearInterval(this.interval);
-		this.interval = null;
-	} else {
-		this.interval = setInterval(function(){t.step();}, this.step_speed);
-	}
+  if (!this.is_running) {
+    this.is_running = true;
+    this.run();
+  } else {
+    this.is_running = false;
+  }
+};
+
+GameOfLife.prototype.randomizeCells = function(probability) {
+  // TODO: Get the max number of cells and randomize them.
+  this.display.fillCanvas();
+
+  this.num_cells_y = parseInt(Math.floor(this.canvas.clientHeight / this.cell_height), 10);
+  this.num_cells_x = parseInt(Math.floor(this.canvas.clientWidth / this.cell_width), 10);
+
+  this.init_cells = new Array(this.num_cells_y);
+
+  for (var i = this.init_cells.length - 1; i >= 0; i--) {
+    this.init_cells[i] = new Array(this.num_cells_x);
+    for (var j = this.init_cells[i].length - 1; j >= 0; j--) {
+      this.init_cells[i][j] = (Math.random() < probability) ? 1 : 0;
+    }
+  }
 };
 
 function GameDisplay(_num_cells_x, _num_cells_y, _cell_width, _cell_height, _canvas_id) {
-	this.canvas = document.getElementById(_canvas_id);
-    this.ctx = this.canvas.getContext("2d");
-    this.cell_width = _cell_width;
-	this.cell_height = _cell_height;
-	this.num_cells_y = _num_cells_y;
-	this.num_cells_x = _num_cells_x;
+  this.canvas = document.getElementById(_canvas_id);
+  this.ctx = this.canvas.getContext("2d");
+  this.cell_width = _cell_width;
+  this.cell_height = _cell_height;
+  this.num_cells_y = _num_cells_y;
+  this.num_cells_x = _num_cells_x;
 
-    this.width_pixels = this.num_cells_x * this.cell_width;
-	this.height_pixels = this.num_cells_y * this.cell_height;
+  this.width_pixels = this.num_cells_x * this.cell_width;
+  this.height_pixels = this.num_cells_y * this.cell_height;
 }
 
 GameDisplay.prototype.initAsBackground = function() {
@@ -238,19 +282,19 @@ GameDisplay.prototype.initAsBackground = function() {
 	// Overwrites the parameters so, that the canvas fills the website.
 
 	if(typeof(window.innerWidth) === 'number') {
-	//Non-IE
-	this.width_pixels = window.innerWidth;
-	this.height_pixels = window.innerHeight;
+    //Non-IE
+    this.width_pixels = window.innerWidth;
+    this.height_pixels = window.innerHeight;
 
 	} else if(document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
-	//IE 6+ in 'standards compliant mode'
-	this.width_pixels = document.documentElement.clientWidth;
-	this.height_pixels = document.documentElement.clientHeight;
+    //IE 6+ in 'standards compliant mode'
+    this.width_pixels = document.documentElement.clientWidth;
+    this.height_pixels = document.documentElement.clientHeight;
 
 	} else if(document.body && (document.body.clientWidth || document.body.clientHeight)) {
-	//IE 4 compatible
-	this.width_pixels = document.body.clientWidth;
-	this.height_pixels = document.body.clientHeight;
+    //IE 4 compatible
+    this.width_pixels = document.body.clientWidth;
+    this.height_pixels = document.body.clientHeight;
 	}
 
 	this.cell_height = this.cell_width = Math.floor(Math.min(this.width_pixels / this.num_cells_x, this.height_pixels / this.num_cells_y));
@@ -261,14 +305,26 @@ GameDisplay.prototype.initAsBackground = function() {
 	this.init();
 };
 
+GameDisplay.prototype.fillCanvas = function() {
+  // Overwrites the parameter so that the canvas is filled.
+  this.width_pixels = this.canvas.clientWidth;
+  this.height_pixels = this.canvas.clientHeight;
+
+  this.canvas.width = this.width_pixels;
+    this.canvas.height = this.height_pixels;
+};
+
+
+
 GameDisplay.prototype.drawCell = function(cell) {
 	var start_x = cell.x_pos * this.cell_width,
 		start_y = cell.y_pos * this.cell_height;
 
+
 	if (cell.is_alive) {
 		this.ctx.fillStyle = "green";
 	} else {
-		this.ctx.fillStyle = "grey";
+		this.ctx.fillStyle = "black";
 	}
 
 	this.ctx.fillRect(start_x, start_y, this.cell_width, this.cell_height);
@@ -309,15 +365,15 @@ function Cell (new_x_pos, new_y_pos, new_is_alive, new_neighbours) {
 	this.is_alive = new_is_alive;
 	this.x_pos = new_x_pos;
 	this.y_pos = new_y_pos;
-};
+}
 
 window.onload = function initConway() {
 	params = {
-		canvas_id: "game",
-			cell_width: 12,
-			cell_height: 12,
-			init_cells: seed_2,
-			step_speed: 2000
+		canvas_id: "random",
+        cell_height: 5,
+        cell_width: 5,
+    step_speed: 1000,
+    probability: 0.1
 	},
 	game = new GameOfLife(params);
 	game.toggle();
